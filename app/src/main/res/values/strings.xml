@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TransportesEC</string>
+    <!-- Rutas API -->
+    <string name="servidor">http://www.transportesec.com/</string>
+    <!--<string name="servidor">http://192.168.0.200/</string>-->
+    <string name="login_url">api/login</string>
+    <string name="guardar_itinerario">api/guardar/itinerario</string>
+    <string name="rutas_chofer">api/rutas/chofer</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo Electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar al sistema</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">La direccion de email es invalida</string>
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña ingresada es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">Lectura de Pasajeros</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificaciones</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">El acceso a la cámara es necesario para poder leer la cédula</string>
+    <string name="no_camera_permission">Esta aplicación no se puede ejecutar porque no tiene condedido los permisos de la cámara.  La aplicación se cerrará ahora.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_header">Click &quot;CAPTURAR CÉDULA&quot; para leer el código de barra</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Usar Flash</string>
+    <string name="barcode_success">Lectura Correcta</string>
+    <string name="barcode_failure">Fallo al leer cédula</string>
+    <string name="barcode_error">"Error capturando código de barra: %1$s"</string>
+
+    //Botones y Etiquetas
+    <string name="cargar_pasajeros">"CARGAR PASAJEROS"</string>
+    <string name="bienvenido">"BIENVENIDO"</string>
+    <string name="datos_transporte">"Datos del Transporte asignado"</string>
+    <string name="continuar_cargando">"CONTINUAR CARGA PASAJEROS"</string>
+    <string name="salir">"CERRAR SESION"</string>
+    <string name="cerrar_app">Está usted seguro de cerrar la aplicación?</string>
+
+    //Formulario de carga de pasajero
+    <string name="cedula">"Cédula de Identidad"</string>
+    <string name="nombres">"Nombres"</string>
+    <string name="apellidos">"Apellidos"</string>
+    <string name="ruta">"RUTA Y HORA"</string>
+    <string name="continuar">"CONTINUAR"</string>
+    <string name="pausar_carga">Pausar</string>
+    <string name="cerrar_lista">Cierre definitivo</string>
+    <string name="escanear_cedula">Escanear Cédula</string>
+    <string name="guardar_pasajero_bus">Confirmar carga del pasajero</string>
+    <string name="total_pasajeros">"Total Pasajeros cargados: %1$s"</string>
+    <string name="pasajero_cargado">"SE CARGO CON EXITO AL PASAJERO %1$s"</string>
+    <string name="pasajero_existe_lista">"EL PASAJERO YA SE ENCUENTRA CARGADO"</string>
+    <string name="error_texto">Texto inválido. Debe ser mayor a tres carácteres</string>
+    <string name="error_cedula">Solo números y no mayor a 10 dígitos</string>
+    <string name="cerrar_lista_mensaje">Está usted seguro de cerrar la carga de pasajeros? Una vez cerrada, no podrá abrirse. La información será enviada al servidor.</string>
+    <string name="mensaje_lista_enviada">Lista ENVIADA con éxito</string>
+
+    //Mensajes
+    <string name="tocar_pantalla">"Toca la Pantalla para capturar la Cédula"</string>
+</resources>
